@@ -1,0 +1,58 @@
+body, HTML {
+    font-family: Arial;
+    margin:0;
+    padding:0;
+    background: white;
+}
+
+h1 {
+    padding: 20px;
+    color: darkblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+  border-radius: 25px;
+  border: 2px solid skyblue;
+  padding: 20px; 
+  width: 400px;
+  height: 50px; 
+  margin: 10px auto;
+  text-align: center;
+}
+
+#topText,p {
+  border-radius: 25px;
+  border: 2px solid skyblue;
+  padding: 20px; 
+  width: 400px;
+  height: 25px; 
+  margin: 10px auto;
+  text-align: center;
+}
+
+#showList {
+  border-radius: 25px;
+  border: 2px solid skyblue;
+  padding: 0px; 
+  width: 400px;
+  height: 250px; 
+  margin: 0px auto;
+  text-align: left;
+}
+
+button {
+  margin: 0px auto;
+  display:table;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  
+
+}
+
+#textBox {
+  margin: 0 auto;
+  display:table;
+}
