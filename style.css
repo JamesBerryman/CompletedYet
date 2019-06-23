@@ -22,6 +22,12 @@ h2 {
   text-align: center;
 }
 
+h5 {
+  padding: 5px;
+  margin: 0px auto;
+  text-align: center;
+  }
+
 #topText,p {
   border-radius: 25px;
   border: 2px solid skyblue;
@@ -43,7 +49,7 @@ h2 {
 }
 
 button {
-  margin: 0px auto;
+  margin: 10px auto;
   display:table;
   width: 100px;
   height: 25px;
