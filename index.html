@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Have you completed it yet?</title>
+        <title>Have you completed it yet?</title>
         </head>
         <body>
             <h1>Have you completed it yet?</h1>
 
-            <h2 id="topText">Have you completed it yet?</h2>
             <input type="text" id="textBox" value="">
             <button id="add" onclick="add()">Add Game</button>
+
+            <div class='container'>
             <h2 id="showGame"></h2>
-            
-            <button name="yes" onclick="list()">Yes</button>
-            <button name="no" onclick="list()">No</button>
+            </div>
+
+            <button name="yes" onclick="list(1)" >Yes</button>
+            <button name="no" onclick="list(0)">No</button>
             <button name="visible" onclick="visible()">Add</button>
             <small><h5>Created by James Berryman</h5></small>
             <small><h5>Version 0.001 - Under construction</h5></small>
